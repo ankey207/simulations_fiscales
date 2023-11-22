@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    admin:
+      email: administrateur@gmail.com
+      name: admin
+      password: $2b$12$f8d59I2dmFhfIr4qYDlQbOrC9gok/iIUJMTL8oMsH4roMHHIn8CPO
+    super_admin:
+      email: supeur_admin@gmail.com
+      name: super_admin
+      password: $2b$12$f8d59I2dmFhfIr4qYDlQbOrC9gok/iIUJMTL8oMsH4roMHHIn8CPO
+
+    
+cookie:
+  expiry_days: 1
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
